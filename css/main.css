@@ -1,0 +1,108 @@
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+
+p {
+    font-size: 14px;
+}
+
+/* Margins */
+.margin-top {
+    margin-top: 45px;
+}
+
+.margin-bot {
+    margin-bottom: 45px;
+}
+
+/* Background colors */
+.bg-4 {
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+}
+
+/* Bootstrap overrides */
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+/* Icons for skills */
+.icon-md {
+    font-size: 24px;
+    height: 68px;
+    width: 68px;
+    line-height: 68px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    display: inline-block;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+
+.icon-color1 {
+    background-color: #e74c3c;
+}
+
+.icon-color2 {
+    background-color: #3498db;
+}
+
+.icon-color3 {
+    background-color: #1abc9c;
+}
+
+/* Font styles */
+.heavy {
+    font-weight: 300;
+}
+
+.large-h1 {
+    font-size: 80px
+}
+
+.large-h4 {
+    font-size: 20px
+}
+
+/* Style for sections */
+#intro {
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+    padding: 100px 0;
+}
+
+#skills {
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+#projects {
+    background-color: #ffffff; /* White */
+    color: #555555;
+    padding-top: 20px;
+}
+
+/* Other custom elements */
+.xl {
+    width: 75%
+}
