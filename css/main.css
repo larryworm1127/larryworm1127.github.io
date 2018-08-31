@@ -17,6 +17,10 @@ p {
     margin-bottom: 45px;
 }
 
+.margin-bot-sm {
+    margin-bottom: 20px;
+}
+
 /* Background colors */
 .bg-4 {
     background-color: #2f2f2f; /* Black Gray */
@@ -75,8 +79,16 @@ p {
     font-weight: 300;
 }
 
+.large-p {
+    font-size: 14px;
+}
+
 .large-h1 {
     font-size: 80px
+}
+
+.large-h3 {
+    font-size: 25px
 }
 
 .large-h4 {
@@ -97,7 +109,7 @@ p {
 }
 
 #projects {
-    background-color: #ffffff; /* White */
+    background-color: #fcf8e3; /* Light Yellow */
     color: #555555;
     padding-top: 20px;
 }
