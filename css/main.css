@@ -27,7 +27,7 @@ p {
     color: #fff;
 }
 
-/* Bootstrap overrides */
+/* Bootstrap Overrides */
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -47,7 +47,7 @@ p {
     color: #1abc9c !important;
 }
 
-/* Icons for skills */
+/* Icons for Skills */
 .icon-md {
     font-size: 24px;
     height: 68px;
@@ -74,7 +74,7 @@ p {
     background-color: #1abc9c;
 }
 
-/* Font styles */
+/* Font Styles */
 .heavy {
     font-weight: 300;
 }
@@ -95,7 +95,7 @@ p {
     font-size: 20px
 }
 
-/* Style for sections */
+/* Style for Sections */
 #intro {
     background-color: #1abc9c; /* Green */
     color: #ffffff;
@@ -114,7 +114,56 @@ p {
     padding-top: 20px;
 }
 
-/* Other custom elements */
+#contact {
+    background-color: #ffffff; /* White */
+    color: #555555;
+    padding-top: 20px;
+}
+
+/* Other Custom Elements */
 .xl {
     width: 75%
+}
+
+/* Contact Email */
+.contact-email a {
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+.contact-email a:hover,
+.contact-email a:focus {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Contact Numbers */
+.contact-numbers {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+/* Contact Social */
+.contact-social {
+    list-style: none;
+    display: inline-block;
+    margin: 4.2rem 25px 0 0;
+    font-size: 4.2rem;
+}
+
+.contact-social li {
+    margin-right: 15px;
+    padding-left: 0;
+    display: inline-block;
+}
+
+.contact-social li a {
+    color: #337ab7;
+    border: none !important;
+}
+
+.contact-social li a:hover,
+.contact-social li a:focus {
+    color: #337ab7;
 }
