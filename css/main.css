@@ -8,6 +8,14 @@ p {
     font-size: 14px;
 }
 
+a {
+    color: #52b6ec;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+
 /* Margins */
 .margin-top {
     margin-top: 45px;
