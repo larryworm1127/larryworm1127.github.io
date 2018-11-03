@@ -82,6 +82,10 @@ a {
     background-color: #1abc9c;
 }
 
+.icon-color4 {
+    background-color: yellow;
+}
+
 /* Font Styles */
 .heavy {
     font-weight: 300;
