@@ -1,0 +1,137 @@
+%%%%%%%%%%%%%%%%%
+% This is an example CV created using altacv.cls (v1.1.4, 27 July 2018) written by
+% LianTze Lim (liantze@gmail.com), based on the
+% Cv created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
+%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% If you want to use \orcid or the
+%% academicons icons, add "academicons"
+%% to the \documentclass options.
+%% Then compile with XeLaTeX or LuaLaTeX.
+% \documentclass[10pt,a4paper,academicons]{altacv}
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[10pt,a4paper]{altacv}
+
+%% AltaCV uses the fontawesome and academicon fonts
+%% and packages.
+%% See texdoc.net/pkg/fontawecome and http://texdoc.net/pkg/academicons for full list of symbols.
+%% When using the "academicons" option,
+%% Compile with LuaLaTeX for best results. If you
+%% want to use XeLaTeX, you may need to install
+%% Academicons.ttf in your operating system's font %% folder.
+
+
+% Change the page layout if you need to
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
+
+% Change the font if you want to.
+
+% If using pdflatex:
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+\usepackage{hyperref}
+\usepackage{fontawesome}
+
+% If using xelatex or lualatex:
+% \setmainfont{Lato}
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{black}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\begin{document}
+\name{Le Rong (Larry) Shi}
+\tagline{Software Developer}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \email{\href{mailto:shilerong@gmail.com}{shilerong@gmail.com}}
+  \phone{343-777-8457}
+  \homepage{\href{https://larryworm1127.github.io/}{larryworm1127.github.io}}
+  \linkedin{\href{https://www.linkedin.com/in/larry-shi-11479914b/}{linkedin.com/in/larry-shi-11479914b/}}
+  \github{\href{https://github.com/larryworm1127}{github.com/larryworm1127}}
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+\cvsection[page1sidebar]{Experience}
+
+\cvevent{Summer Intern}{Merchant Link}{July 2015 -- August 2015}{Ottawa, ON}
+\begin{itemize}
+\item Tested credit/debit card transaction devices software on a variety of pin-pads.
+\item Upgraded software for more than 100 credit/debit card transaction devices.
+\end{itemize}
+
+\divider
+
+\cvevent{Software Developer in Test - Intern}{Merchant Link}{May 2019 -- August 2019}{Ottawa, ON}
+\begin{itemize}
+\item Used Python to create scripts that simulates behaviors of a pinpad to help automate testing of company product.
+\item Performed stress testing on company product to evaluate its ability to process transactions.
+\item Used Python to create an experimental tool that diagnosis pinpad issues by capturing network activity.
+\end{itemize}
+
+
+\cvsection[]{Personal Projects}
+
+\cvevent{PyBoardGame}{\href{https://github.com/larryworm1127/PyBoardGame}{https://github.com/larryworm1127/PyBoardGame}}{July 2018 -- Ongoing}{Ottawa, ON}
+\begin{itemize}
+    \item Language: Python 3, JavaScript, CSS, HTML, Jinja2
+    \item Technologies: Flask, Pytest, Gunicorn, Bootstrap, Jquery, Heroku
+    \item A web project that allows users to play simple board games on the website.
+    \item Project Link: \href{https://pyboardgame.herokuapp.com/}{https://pyboardgame.herokuapp.com/}
+    \item Note: There are bugs in the games that are yet to be fixed.
+\end{itemize}
+
+\divider
+
+\cvevent{NBA Simulator}{\href{https://github.com/larryworm1127/nba\_simulator}{https://github.com/larryworm1127/nba\_simulator}}{September 2017 -- January 2018}{Ottawa, ON}
+\begin{itemize}
+    \item Language: Python 3, JavaScript, CSS, HTML, Django Templating Language
+    \item Technologies: Django, Unittest, Nba-py, Django-restframework, Django-chartjs, Bootstrap, Jquery, Jquery-bracket
+    \item A school web project that displays 2016-17 NBA season stats and predict 2017-18 season outcome based on previous year data.
+\end{itemize}
+
+
+\cvsection[]{Extracurricular Activities}
+
+\cvevent{Volunteer}{Stillwater Creek Retirement Home}{July 2014 -- June 2018}{Ottawa, ON}
+\begin{itemize}
+    \item Perform music with a group named "Music in Motion" in the retirement home.
+    \item Organized "Music in Motion" performances.
+    \item Help kitchen serve out ice creams to seniors in the retirement home.
+\end{itemize}
+
+\end{document}
