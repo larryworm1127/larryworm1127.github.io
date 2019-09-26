@@ -82,11 +82,14 @@
 %% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
 \AtBeginEnvironment{itemize}{\small}
 
+%% Include the sidebar
+\marginpar{\vspace*{-85pt}\raggedright\input{page1sidebar}}
+
 %% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
 %% You can always just use \marginpar{...} if you do
 %% not need to align the top of the contents to any
 %% \cvsection title in the "main" bar.
-\cvsection[page1sidebar]{Experience}
+\cvsection[]{Experience}
 
 \cvevent{Software Developer in Test - Intern}{Merchant Link}{May 2019 -- August 2019}{Ottawa, ON}
 \begin{itemize}
@@ -131,5 +134,11 @@
     \item Organized "Music in Motion" performances.
     \item Help kitchen serve out ice creams to seniors in the retirement home.
 \end{itemize}
+
+
+\cvsection{Languages}
+
+\cvskill{English}{5}
+\cvskill{Mandarin}{4}
 
 \end{document}
