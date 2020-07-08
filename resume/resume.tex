@@ -85,10 +85,28 @@
 %% Include the sidebar
 \marginpar{\vspace*{-85pt}\raggedright\input{page1sidebar}}
 
-%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
-%% You can always just use \marginpar{...} if you do
-%% not need to align the top of the contents to any
-%% \cvsection title in the "main" bar.
+
+\cvsection[]{Skills}
+
+\cvevent{Languages}{}{}{}
+
+\begin{itemize}
+  \item{Python, JavaScript, Java, C, Kotlin}
+  \item{Racket, Haskell}
+  \item{Latex, Shell/Bash, SQL, HTML, CSS}
+\end{itemize}
+
+\vspace{10pt}
+
+\cvevent{Frameworks/Tools/Libraries}{}{}{}
+
+\begin{itemize}
+  \item{Django/Flask, React/Angular, Android, PostgreSQL/SQLite, Hypothesis, NumPy, Matplotlib, Pandas}
+  \item{Unix, automated testing, scrum, CI/CD with CircleCI and Heroku, Git}
+  \item{Design patterns, MVP, SOLID, REST API}
+\end{itemize}
+
+
 \cvsection[]{Experience}
 
 \cvevent{Software Developer in Test - Intern}{Merchant Link}{May 2019 -- August 2019}{Ottawa, ON}
@@ -99,42 +117,17 @@
 \end{itemize}
 
 
-\cvsection[]{Personal Projects}
 
-\cvevent{\href{https://github.com/larryworm1127/PyBoardGame}{PyBoardGame}}{}{July 2018 -- September 2018}{Ottawa, ON}
-\begin{itemize}
-    \item A web project written in Python (Flask) that allows users to play simple board games on the website. Including Tic Tac Toe and Sudoku.
-    \item A computer player is implemented using minimax algorithm in Python while the rest of game logic is implemented in JavaScript.
-    \item The website also contains well documented game strategies pages.
-\end{itemize}
+\cvsection{Awards \& Certificates}
+\cvevent{"Learn to Program: The Fundamentals" Statement of Accomplishment}{University of Toronto MOOC}{January 2014}{Ottawa, ON}
 
 \divider
 
-\cvevent{\href{https://github.com/larryworm1127/nba\_daily}{NBA Daily}}{}{Apirl 2019 -- Ongoing}{Ottawa, ON}
-\begin{itemize}
-    \item A web project written in Python (Django) that scraps NBA stats from NBA website using API and displays the data in a more accessible way.
-    \item Used SQLite alongside Django model to store and access all scapped data.
-    \item Currently trying to integrate React with Django Rest Framework to create better looking and functinal web pages.
-\end{itemize}
+\cvevent{"An Introduction to Interactive Programming in Python" Statement of Accomplishment With Distinction}{Rice University MOOC}{June 2014}{Ottawa, ON}
 
 \divider
 
-\cvevent{\href{https://github.com/larryworm1127/AdventureOfPost}{Android Game}}{}{October 2019 -- December 2019}{Toronto, ON}
-\begin{itemize}
-	\item An Android app that contains 3 distinctive games, a functional user authentication system, as well as game save/resume feature.
-  \item Learned Android development in a week and built the app using Java, Gradle, and SQLite.
-  \item Employed SOLID principles, MVP architecture and other object-oriented design patterns.
-	\item Designed the project, oral presentation, UML diagrams in collaboration with five other peers.
-\end{itemize}
+\cvevent{Dean's List Scholar in the Faculty of Arts \& Science (>3.5 cGPA)}{University of Toronto}{2019 -- 2020}{Toronto, ON}
 
-
-\cvsection[]{Extracurricular Activities}
-
-\cvevent{Volunteer}{Stillwater Creek Retirement Home}{July 2014 -- June 2018}{Ottawa, ON}
-\begin{itemize}
-    \item Perform music with a group named "Music in Motion" in the retirement home.
-    \item Organized "Music in Motion" performances.
-    \item Help kitchen serve out ice creams to seniors in the retirement home.
-\end{itemize}
 
 \end{document}
